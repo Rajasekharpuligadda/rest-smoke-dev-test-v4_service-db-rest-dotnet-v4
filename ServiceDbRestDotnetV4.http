@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:5000
+
+### Get live health check
+GET {{baseUrl}}/health/live
+Accept: application/json
+
+### Get ready health check
+GET {{baseUrl}}/health/ready
+Accept: application/json
